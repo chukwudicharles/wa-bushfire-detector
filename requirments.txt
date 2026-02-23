@@ -1,9 +1,0 @@
-
-
-
-streamlit
-ultralytics
-opencv-python-headless
-pillow
-feedparser
-numpy
