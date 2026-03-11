@@ -1,9 +1,8 @@
 streamlit>=1.38.0
-ultralytics==8.3.66          # or 8.2.98 / 8.3.0 — avoid very latest if unstable
-torch==2.3.1                 # CPU version — Cloud has no GPU anyway
-torchvision==0.18.1
-torchaudio==2.3.1
+ultralytics==8.3.0          # or 8.2.98 / 8.3.0 — avoid very latest if unstable
+torch==2.3.0                 # CPU version — Cloud has no GPU anyway
+torchvision==0.18.0
 opencv-python-headless>=4.10.0
-pillow>=10.4.0
-numpy>=1.26.0,<2.0           # avoid numpy 2.x conflicts in some cases
+pillow>=10.0.0
+numpy>=1.26.0           # avoid numpy 2.x conflicts in some cases
 feedparser
